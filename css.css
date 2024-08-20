@@ -1,10 +1,14 @@
+section{
+    padding: 10PX;
+    width: auto;
+}
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    width: 90%;
+    gap: 20px;
+    width: auto;
     margin: auto;
-    margin-top: 40px;
+
 }
 img{
     width: 100%;
@@ -35,13 +39,14 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    margin: 0%;
 }
 
 h1{
     font-size: 1em;
 }
 .collem_two{
-    background-color: #b3b3b3;
+    background-color: #dcdcdc;
     height: 200px;
     text-align: center;
 }
@@ -52,11 +57,19 @@ div{
 
 div.about p{
     text-align: left;
+    margin-left: 20px;
 }
 
 div.history p{
     text-align: right;
+    margin-right: 20px;
 }
 #index-history{
-    background-color: #ff5e53;
+    background-color: #ffe6e6;
+}
+#index-about{
+    background-color: #dcdcdc
+}
+a{
+color: #0c4187;
 }
