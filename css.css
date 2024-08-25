@@ -101,9 +101,42 @@ color: #0c4187;
     width: auto;
     margin: auto;
     background-image:  
-    linear-gradient(180deg, #dcdcdcff,
+    linear-gradient(180deg, #ffe6e6ff,
     #ffe6e6a0),
     url("./Te Puia Resources/Images/giser.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 450px;
+}
+
+#w-class-text{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    background-image:  
+    linear-gradient(180deg, #dcdcdcff,
+    #ffe6e670),
+    url("./Te Puia Resources/Images/w-class.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 450px;
+}
+#we-class-text{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    background-image:  
+    linear-gradient(180deg, #ffe6e6ff,
+    #ffe6e6a0),
+    url("./Te Puia Resources/Images/barstets.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
