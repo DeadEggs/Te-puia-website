@@ -162,12 +162,11 @@ nav{
 body{
     padding: 0;
     margin: 0;
-    overflow:scroll
+    overflow-x: hidden;
 }
 body::-webkit-scrollbar{
-    display: none;
+    width: 1px;
 }
-
 a.nav{
     border-left: 1px groove black;
     border-right: 1px groove black;
