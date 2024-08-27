@@ -85,7 +85,7 @@ color: #0c4187;
     /* Add background image */
     background-image: 
     linear-gradient(180deg, rgba(255, 255, 255, 0.5),
-    rgba(255, 94, 83, 0.5)),
+    rgba(255, 126, 116, 0.26)),
     url("./Te Puia Resources/Images/mudpool.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -146,20 +146,26 @@ color: #0c4187;
 }
 
 nav{
-    height: 30px;
-    text-align: right;
+    height: 29px;
+    text-align: left;
     background-image:  
     linear-gradient(90deg, #dcdcdc,
     #FFE6e6);
     font-size: 25px;
     color: black;
-    padding-right: 5px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
     padding-top: 2px;
+    margin-left: 2px;
 }
 
 body{
     padding: 0;
     margin: 0;
+    overflow:scroll
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 a.nav{
@@ -168,7 +174,8 @@ a.nav{
     margin:0;
     text-decoration: none;
     padding: 1px;
-
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 a:hover.nav{
@@ -176,6 +183,8 @@ a:hover.nav{
     margin:0;
     text-decoration: none;
     padding: 0px;
-    background-color: #dcdcdc;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #ffe6e6;
     color: black;
 }
