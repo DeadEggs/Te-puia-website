@@ -5,7 +5,6 @@ h1{
 }
 
 h3{
-    font-family:'Edu Australia VIC WA NT Hand';
     font-size: 30px;
 }
 
@@ -20,7 +19,7 @@ section{
     gap: 20px;
     width: auto;
     margin: auto;
-
+    font-family:'Edu Australia VIC WA NT Hand';
 }
 
 img{
