@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
-@import url(https://fonts.googleapis.com/css?family=Edu+Australia+VIC+WA+NT+Hand);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
 h1{
     font-family: 'Dosis';
 }
@@ -19,7 +19,7 @@ section{
     gap: 20px;
     width: auto;
     margin: auto;
-    font-family:'Edu Australia VIC WA NT Hand';
+    font-family:'Comfortaa';
 }
 
 img{
