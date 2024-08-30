@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Edu+Australia+VIC+WA+NT+Hand);
 h1{
-    font-family: "Dosis";
+    font-family: 'Dosis';
 }
 
 section{
@@ -171,6 +172,7 @@ body{
 }
 body::-webkit-scrollbar{
     width: 1px;
+    font-family:'Edu Australia VIC WA NT Hand';
 }
 
 a.nav{
