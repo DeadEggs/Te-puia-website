@@ -87,7 +87,8 @@ div.history p{
 }
 
 a{
-color: #0c4187;
+    color: #0c4187;
+    font-family:'Comfortaa';
 }
 
 #history-top{
