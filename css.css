@@ -4,6 +4,11 @@ h1{
     font-family: 'Dosis';
 }
 
+h3{
+    font-family:'Edu Australia VIC WA NT Hand';
+    font-size: 30px;
+}
+
 section{
     padding: 10PX;
     width: auto;
@@ -173,7 +178,6 @@ body{
 }
 body::-webkit-scrollbar{
     width: 1px;
-    font-family:'Edu Australia VIC WA NT Hand';
 }
 
 a.nav{
