@@ -22,6 +22,7 @@ img{
     width: 100%;
     border-radius: 20px;
     display: block;
+    border: 1px soild black;
 }
 
 .class-column{
