@@ -69,18 +69,22 @@ div{
     text-align: center;
 }
 
-div.about p{
+div.text-left p{
     text-align: left;
     margin-left: 20px;
 }
 
-div.history p{
+div.text-right p{
     text-align: right;
     margin-right: 20px;
 }
 
 #index-history{
     background-color: #ffe6e6;
+}
+
+#we-img{
+    background-color: #ffd6a1;
 }
 
 #index-about{
@@ -119,42 +123,6 @@ a{
     linear-gradient(180deg, #ffe6e6ff,
     #ffe6e6a0),
     url("./Te Puia Resources/Images/giser.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0%;
-    height: 450px;
-    font-family:'Comfortaa';
-}
-
-#w-class-text{
-    display: grid;
-    grid-template-columns: 3fr 5fr;
-    gap: 20px;
-    width: auto;
-    margin: auto;
-    background-image:  
-    linear-gradient(180deg, #dcdcdcff,
-    #ffe6e670),
-    url("./Te Puia Resources/Images/w-class.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0%;
-    height: 450px;
-    font-family:'Comfortaa';
-}
-
-#we-class-text{
-    display: grid;
-    grid-template-columns: 3fr 5fr;
-    gap: 20px;
-    width: auto;
-    margin: auto;
-    background-image:  
-    linear-gradient(180deg, #ffe6e6ff,
-    #ffe6e6a0),
-    url("./Te Puia Resources/Images/barstets.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,6 +183,7 @@ a:hover.nav{
     border-radius: 24px;
 }
 
+/*Classes page*/
 #class-top{
     /* Center Text */
     display: grid;
@@ -223,11 +192,85 @@ a:hover.nav{
     /* Add background image */
     background-image: 
     linear-gradient(180deg, rgba(255, 255, 255, 0.5),
-    rgba(255, 126, 116, 0.26)),
+    #ffd6a1a0),
     url("./Te Puia Resources/Images/mudpool.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     margin: 0%;
+}
+
+.class-ti{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    font-family:'Comfortaa';
+    background-color: #ffd6a1;
+}
+
+#class-text-weaving{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    background-image:  
+    linear-gradient(180deg, #ffd6a1,
+    #ffd6a1a0),
+    url("./Te Puia Resources/Images/barstets.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 450px;
+    font-family:'Comfortaa';
+}
+
+#class-text-wood{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    width: auto;
+    margin: auto;
+    background-image:  
+    linear-gradient(180deg, #D0A06C,
+    #ffd6a1a0),
+    url("./Te Puia Resources/Images/w-class.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 450px;
+    font-family:'Comfortaa';
+}
+#carving{
+    background-color: #D0A06C;
+}
+nav#class{
+    background-image:  
+    linear-gradient(90deg, #dcdcdc,
+    #ffd6a1);
+}
+a:hover.nav-class{
+    border: 2px inset black;
+    margin:0;
+    text-decoration: none;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #D0A06C;
+    color: black;
+}
+
+a.nav-class{
+    border-left: 1px groove black;
+    border-right: 1px groove black;
+    margin:0;
+    text-decoration: none;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
