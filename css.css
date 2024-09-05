@@ -1,3 +1,4 @@
+New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
 
@@ -130,13 +131,12 @@ a{
     width: 80%;
     margin: auto;
     padding-top: 40px;
-    height: 480px;
     font-family:'Comfortaa';
 }
 
 .collem_two{
     background-color: #dad7cb;
-    height: 200px;
+    height: 90%;
     text-align: center;
     font-family:'Comfortaa';
 }
@@ -165,13 +165,13 @@ a{
     width: auto;
     margin: auto;
     background-image:  
-    linear-gradient(180deg, #DADCD7a0, #F2EFE2a0),
+    linear-gradient(180deg, #F2EFE2,
+    #F2EFE2c0),
     url("./Te Puia Resources/Images/giser.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
-    height: 450px;
     font-family:'Comfortaa';
 }
 
@@ -207,7 +207,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
-    height: 450px;
     font-family:'Comfortaa';
 }
 
@@ -225,6 +224,5 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
-    height: 450px;
     font-family:'Comfortaa';
 }
